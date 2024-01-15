@@ -106,13 +106,13 @@ func (c *column) getStyle() lipgloss.Style {
 		return lipgloss.NewStyle().
 			Padding(1, 2).
 			Border(lipgloss.RoundedBorder()).
-			BorderForeground(lipgloss.Color("62")).
+			BorderForeground(lipgloss.Color("#158194")).
 			Height(c.height).
 			Width(c.width)
 	}
 	return lipgloss.NewStyle().
 		Padding(1, 2).
-		Border(lipgloss.HiddenBorder()).
+		Border(lipgloss.RoundedBorder()).
 		Height(c.height).
 		Width(c.width)
 }

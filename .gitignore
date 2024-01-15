@@ -7,3 +7,4 @@ task-cli
 *.test
 *.out
 go.work
+debug.log
